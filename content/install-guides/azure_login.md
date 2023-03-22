@@ -20,15 +20,15 @@ multitool_install_part: false   # Set to true if a sub-page of a multi-page arti
 layout: installtoolsall         # DO NOT MODIFY. Always true for tool install articles
 ---
 
-The installation of Terraform on your Desktop/Laptop needs to communicate with Azure. Thus, Terraform needs to be authenticated.
+Before moving ahead make sure that azure cli is installed in your local sysytem. To install azure cli, follow this [documentation](/install-guides/azure-cli).
 
-This section provides answers to the most frequently asked azure authentication questions.
+In this section you will see on how to authenticate to the Azure environment using Azure CLI. Once logged in, the CLI allows you to query and interact with the cloud resource.
 
 Feel free to seek out additional azure authentication tutorials or add more information to this page. 
 
 ## Sign in interactively
  
-The Azure CLI's default authentication method for logins uses a web browser and access token to sign in. Run the below command for login.
+Run the following command to initiate the login session:
 
 ```console
 az login
