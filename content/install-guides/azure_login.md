@@ -37,11 +37,10 @@ az login
 The output will be similar as shown below.
 
 ```output
-asdfgb
+ubuntu@ip-172-31-17-218:~$ az login
+To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code E5NKJA2HM to authenticate.
 ```
 
-Open the link in a browser and enter the code that you receive in the above message. Then login into azure account. After you log in, You will see below details in command line:
+Open the link in a browser and enter the code that you receive in the above message. Then login into azure account. You will see details in command line as below after logging in browser.
 
-```output
-asdfgb
-```
+![image](https://user-images.githubusercontent.com/42368140/197953418-ddb9cd41-72b9-4a97-88f1-1f490644f36b.PNG)
