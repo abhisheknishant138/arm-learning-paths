@@ -22,7 +22,7 @@ layout: installtoolsall         # DO NOT MODIFY. Always true for tool install ar
 
 Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli).
 
-In this section you will see on how to gernerate Access keys. Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. 
+In this section you will see how to gernerate Access keys. Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. 
 
 Feel free to seek out additional login tutorials or add more information to this page. 
 
