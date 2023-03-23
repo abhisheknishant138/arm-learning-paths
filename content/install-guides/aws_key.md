@@ -10,7 +10,7 @@ additional_search_terms:
 minutes_to_complete: 10
 
 ### Link to official documentation
-official_docs: https://cloud.google.com/sdk/gcloud/reference/auth/application-default/login
+official_docs: https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html
 
 ### PAGE SETUP
 weight: 1                       # Defines page ordering. Must be 1 for first (or only) page.
@@ -22,7 +22,7 @@ layout: installtoolsall         # DO NOT MODIFY. Always true for tool install ar
 
 Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli).
 
-In this section you will see on how to obtain user access credentials via a web flow and puts them in the well-known location for Application Default Credentials (ADC).
+In this section you will see on how to gernerate Access keys. Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. 
 
 Feel free to seek out additional login tutorials or add more information to this page. 
 
