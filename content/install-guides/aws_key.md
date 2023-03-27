@@ -10,8 +10,8 @@ additional_search_terms:
 minutes_to_complete: 10
 
 ### Link to official documentation
-official_docs: https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html
-
+official_docs: https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+ 
 ### PAGE SETUP
 weight: 1                       # Defines page ordering. Must be 1 for first (or only) page.
 tool_install: true              # Set to true to be listed in main selection page, else false
@@ -19,8 +19,6 @@ multi_install: false            # Set to true if first page of multi-page articl
 multitool_install_part: false   # Set to true if a sub-page of a multi-page article, else false
 layout: installtoolsall         # DO NOT MODIFY. Always true for tool install articles
 ---
-
-Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli).
 
 In this section you will see how to gernerate Access keys. Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. 
 
@@ -39,3 +37,17 @@ Feel free to seek out additional login tutorials or add more information to this
 ### Copy the Access Key ID and Secret Access Key 
 
 ![alt-text #center](https://user-images.githubusercontent.com/87687468/190138349-7cc0007c-def1-48b7-ad1e-4ee5b97f4b90.png "Copy keys")
+
+## Configure the AWS CLI
+
+Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli).
+
+```console
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+The above example shows sample values. Replace them with your own values as described in the following sections.
