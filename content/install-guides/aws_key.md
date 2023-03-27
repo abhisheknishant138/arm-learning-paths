@@ -40,7 +40,7 @@ Copy the Access Key ID and Secret Access Key
 
 ## Configure the AWS CLI
 
-Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli).
+Before moving ahead make sure that AWS CLI is installed in your local sysytem. To install AWS CLI, follow this [documentation](/install-guides/aws-cli). Then run the following command to set up your AWS CLI installation.
 
 ```console
 $ aws configure
