@@ -51,3 +51,5 @@ Default output format [None]: json
 ```
 
 The above example shows sample values. Replace them with your own values as described in the following sections.
+
+When you enter this command, the AWS CLI prompts you for four pieces of information: Access key ID, Secret access key, AWS Region and Output format. Enter your all the four values.
